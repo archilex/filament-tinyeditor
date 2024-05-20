@@ -178,7 +178,7 @@ export default function tinyeditor({
 						$wire.upload(`componentFileAttachments.${statePath}`, blobInfo.blob(), finishCallback, errorCallback, progressCallback);
 					}),
 
-				automatic_uploads: true,
+				automatic_uploads: false,
 			});
 		},
 		updateEditorContent(content) {
